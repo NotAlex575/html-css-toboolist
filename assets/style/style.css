@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(246, 246, 246);
+}
 
 /*HEADER*/
 
@@ -13,6 +16,8 @@ header{
     height: 105px;
 }
 
+/*posizione logo e scritta in modo che stanno
+alla stessa altezza*/
 
 header section div{
     display: inline-block;
@@ -20,10 +25,14 @@ header section div{
     vertical-align: middle;
 }
 
+/*dimensioni logo*/
+
 header section div img{
     height: 80px;
     width: 80px;
 }
+
+/*dimensioni scritta*/
 
 header section div h1{
     font-size: 60px;
@@ -31,6 +40,25 @@ header section div h1{
 
 /*MAIN*/
 
-main{
-    background-color: gray;
+/*container dimensione ampiezza*/
+main div{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1170px;
+    background-color: white;
+}
+
+/*container pulsanti altezza */
+#containerPulsanti{
+    border-radius: 1%; 
+    height: 100px;
+    padding-bottom: 90px;
+
+}
+
+/*container task altezza */
+#containerTask{
+    border-radius: 1%; 
+    height: 775px;
+    margin-top: 3px;
 }
