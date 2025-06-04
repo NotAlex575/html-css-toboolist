@@ -11,10 +11,10 @@ body{
 /*HEADER*/
 
 header{
-
     background-color: white;
     height: 105px;
 }
+
 
 /*posizione logo e scritta in modo che stanno
 alla stessa altezza*/
@@ -39,6 +39,10 @@ header section div h1{
 }
 
 /*MAIN*/
+
+main{
+    width: screen;
+}
 
 /*container dimensione ampiezza*/
 main div{
@@ -135,9 +139,7 @@ h2 .contenutoTask{
     margin-bottom: 20px;
     border: 0cap;
 }
-.ok{
-    color: green;
-}
+
 
 .Editorial{
     background-color: rgb(61, 155, 249);
