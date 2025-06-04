@@ -90,9 +90,6 @@ main div div{
     border: 7px color black;
 }
 
-.distanza{
-    margin-left: 90px;
-}
 
 /*container task altezza */
 #containerTask{
@@ -101,3 +98,31 @@ main div div{
     margin-top: 3px;
 }
 
+/*questo per tenere tutte le task inline*/
+
+h2 .contenutoTask{
+    display: inline;
+}
+
+.distaccoSU{
+    padding-top: 50px;
+}
+
+.distanza{
+    margin-left: 90px;
+}
+
+
+.inline{
+    display: inline;
+}
+
+.editorial{
+    border-radius: 15px;
+    border: 2px solid rgb(74, 173, 238);
+    background-color: rgb(74, 173, 238);
+    color:white;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+}
