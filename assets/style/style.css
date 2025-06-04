@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*HEADER*/
+
+header{
+
+    background-color: white;
+    height: 105px;
+}
+
+
+header section div{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+header section div img{
+    height: 80px;
+    width: 80px;
+}
+
+header section div h1{
+    font-size: 60px;
+}
+
+/*MAIN*/
+
+main{
+    background-color: gray;
+}
