@@ -87,11 +87,21 @@ main div div{
 
 }
 
+.pulsanteAzzurro:hover{
+    background-color: rgb(150, 207, 245);
+}
+
+
 .pulsanteBianco{ 
     border: 2px solid rgb(224, 224, 224);
-    background-color: white;
-    color: gray;
+    background-color: rgb(228, 226, 226);
+    color: rgb(172, 172, 172);
     border: 7px color black;
+}
+
+.pulsanteBianco:hover{
+
+    background-color: white;
 }
 
 
@@ -114,9 +124,18 @@ h2 .contenutoTask{
     padding-top: 50px;
 }
 
+/*class che crea un distacco di 50px tra le varie categorie*/
+.distaccoGiu{
+    padding-bottom: 10px;
+}
+
 /*class che crea un margine a sinistra di 90px*/
 .distanza{
     margin-left: 90px;
+}
+
+.distanzax{
+    margin-left: 85px;
 }
 
 /*class che tiene inline*/
@@ -138,6 +157,12 @@ h2 .contenutoTask{
     height: 30px;
     margin-bottom: 20px;
     border: 0cap;
+}
+
+/*distanza per stare precisa con le altre*/
+.x{
+    font-size: 14px;
+    margin-left: 2px;
 }
 
 
