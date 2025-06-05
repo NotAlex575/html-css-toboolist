@@ -13,6 +13,7 @@ body{
 header{
     background-color: white;
     height: 105px;
+
 }
 
 
@@ -40,9 +41,6 @@ header section div h1{
 
 /*MAIN*/
 
-main{
-    width: screen;
-}
 
 /*container dimensione ampiezza*/
 main div{
